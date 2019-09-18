@@ -14,7 +14,7 @@ end
 context "Challenge II: Hash with Data" do 
   describe "the_manifest" do 
     it "returns a hash with key/value pairs describing old-timey items" do 
-      "whale bone corsert" => '5
+      "whale bone corsert" => "5"
       "porcelain vases" => 2
       "oil paintings" => 3
     end
