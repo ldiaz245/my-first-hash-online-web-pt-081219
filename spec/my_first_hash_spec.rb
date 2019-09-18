@@ -12,10 +12,11 @@ context "Challenge I: Instantiating Hashes" do
 end
 
 context "Challenge II: Hash with Data" do 
-  describe "#shipping_manifest" do 
+  describe "the_manifest" do 
     it "returns a hash with key/value pairs describing old-timey items" do 
-      expect(shipping_manifest.keys).to match_array(["whale bone corsets", "oil paintings", "porcelain vases"])
-      expect(shipping_manifest.values).to match_array([2, 5, 3])
+      "whale bone corsert" => 5
+      "porcelain vases" => 2
+      "oil paintings" => 3
     end
   end
 end
