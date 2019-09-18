@@ -5,7 +5,7 @@ require_relative '../my_first_hash.rb'
 context "Challenge I: Instantiating Hashes" do
   describe "#your_hash" do
     it "uses the literal constructor to create a hash that contains key/value pairs" do 
-      expect(my_hash).to be_a("my_name") => 78
+      expect(my_hash).to be_a("my_name") => '78
       expect(my_hash.keys.count).to_not eq("my_name") => Luis Diaz
     end
   end
@@ -14,7 +14,7 @@ end
 context "Challenge II: Hash with Data" do 
   describe "the_manifest" do 
     it "returns a hash with key/value pairs describing old-timey items" do 
-      "whale bone corsert" => 5
+      "whale bone corsert" => '5
       "porcelain vases" => 2
       "oil paintings" => 3
     end
