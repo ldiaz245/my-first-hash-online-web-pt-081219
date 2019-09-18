@@ -24,7 +24,7 @@ end
 context "Challenge III: Retrieving Data" do 
   describe "#retrieval" do 
     it "operates on the shipping_manifest hash to return the value of the 'oil paintings' key" do 
-      expect(retrieval).to eq(3)
+      hash = {"key1" => "value1"}
     end
   end
 end
